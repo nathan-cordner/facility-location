@@ -18,5 +18,5 @@ Data input:
 
 C++ Implementation:
  * To compile: g++ facility_location.C -o pd_alg -std=c++11
- * To run (custom data set): bash run_pd_alg.sh <file_name> <lambda>
- * To run (synthetic data set): bash run_pd_alg.sh <keyword> <num_points> <lambda>
+ * To run (custom data set): bash run_pd_alg.sh `file_name` `lambda`
+ * To run (synthetic data set): bash run_pd_alg.sh `keyword` `num_points` `lambda`
