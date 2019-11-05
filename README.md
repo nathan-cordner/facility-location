@@ -17,6 +17,10 @@ Data input:
  * Synthetic data sets need a value "num_points" >= 0 specified
 
 C++ Implementation:
- * To compile: g++ facility_location.C -o pd_alg -std=c++11
- * To run (custom data set): bash run_pd_alg.sh `file_name` `lambda`
- * To run (synthetic data set): bash run_pd_alg.sh `keyword` `num_points` `lambda`
+ * To compile: g++ facility\_location.C -o pd\_alg -std=c++11
+ * To run (custom data set): bash run\_pd\_alg.sh `file_name` `lambda`
+ * To run (synthetic data set): bash run\_pd\_alg.sh `keyword` `num_points` `lambda`
+
+Python Implementation:
+ * To run (custom data set): python run\_code.py `file_name` `lambda`
+ * To run (synthetic data set): python run\_code.py `keyword` `num_points` `lambda`
